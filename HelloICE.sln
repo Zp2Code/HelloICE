@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server\server.vcxproj", "{22386C93-0755-4BFE-A01D-17D097A067E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{0C9E8348-CAE6-4584-AEC5-67230DD7B3EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Slice File", "Slice File", "{731A9667-6B77-494B-BB3A-B887DA8AF854}"
+	ProjectSection(SolutionItems) = preProject
+		Slice File\hello.ice = Slice File\hello.ice
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "generated", "generated", "{F2A39A31-9564-44B0-9655-97AC1FA1F292}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "head", "head", "{7770FB30-04DC-479C-8190-DBBE1A4284E9}"
+	ProjectSection(SolutionItems) = preProject
+		Slice File\generated\hello.h = Slice File\generated\hello.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{949FA99B-B142-4835-A8AB-C7B3EAB79EF8}"
+	ProjectSection(SolutionItems) = preProject
+		Slice File\generated\hello.cpp = Slice File\generated\hello.cpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22386C93-0755-4BFE-A01D-17D097A067E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22386C93-0755-4BFE-A01D-17D097A067E8}.Debug|Win32.Build.0 = Debug|Win32
+		{22386C93-0755-4BFE-A01D-17D097A067E8}.Release|Win32.ActiveCfg = Release|Win32
+		{22386C93-0755-4BFE-A01D-17D097A067E8}.Release|Win32.Build.0 = Release|Win32
+		{0C9E8348-CAE6-4584-AEC5-67230DD7B3EE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C9E8348-CAE6-4584-AEC5-67230DD7B3EE}.Debug|Win32.Build.0 = Debug|Win32
+		{0C9E8348-CAE6-4584-AEC5-67230DD7B3EE}.Release|Win32.ActiveCfg = Release|Win32
+		{0C9E8348-CAE6-4584-AEC5-67230DD7B3EE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2A39A31-9564-44B0-9655-97AC1FA1F292} = {731A9667-6B77-494B-BB3A-B887DA8AF854}
+		{7770FB30-04DC-479C-8190-DBBE1A4284E9} = {F2A39A31-9564-44B0-9655-97AC1FA1F292}
+		{949FA99B-B142-4835-A8AB-C7B3EAB79EF8} = {F2A39A31-9564-44B0-9655-97AC1FA1F292}
+	EndGlobalSection
+EndGlobal
