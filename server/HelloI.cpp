@@ -10,12 +10,12 @@ HelloI::~HelloI(void)
 {
 }
 
-std::string HelloI::SayHello( const ::std::string &s, const ::Ice::Current& /* = ::Ice::Current */ )
+string HelloI::SayHello( const string &s, const ::Ice::Current& /* = ::Ice::Current */ )
 {
 	string send = 
 		s == "Hi, who are you?" ?
 			 "Hi, I'm ZeroC ICE Server.\nWhat's your name?\n" :
-		   	 "It's none of your business.\n" ;
+		   	 "foreign languages.\n" ;
 
 	cout << send;
 	return send;
